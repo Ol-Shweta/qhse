@@ -46,6 +46,8 @@ const callGenerateEndpoint = async () => {
         <div className="header">
           <div className="header-title">
             <h1>AI based OligoQHSE</h1>
+          </div>
+          <div className="header-title">
             <h2>make your HSE easier</h2>
           </div>
           <div className="header-subtitle">
@@ -61,17 +63,17 @@ const callGenerateEndpoint = async () => {
     onClick={callGenerateEndpoint}
   >
     <div className="generate">
-    {isGenerating ? <span className="loader"></span> : <p>Generate</p>}
+    {isGenerating ? <span className="loader"></span> : <p>Submit</p>}
     </div>
   </a>
 
-  <div><button className="generate-button" onClick={() => {  
+  <div><button className="generate-button1" onClick={() => {  
 let msg = {text}.text;
 let utterance = new SpeechSynthesisUtterance(msg);
 let voicesArray = speechSynthesis.getVoices();
 utterance.voice = voicesArray[2];
 speechSynthesis.speak(utterance);
- }}>Speak </button></div>
+ }}>Speaker </button></div>
 
 </div>
 

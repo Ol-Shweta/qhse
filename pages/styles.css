@@ -56,6 +56,15 @@ body {
     text-align: center;
     margin: 0;
 }
+.header-title h2 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -4px;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0;
+}
 
 .header-subtitle h2 {
     font-size: 20px;
@@ -195,6 +204,34 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+}
+
+.generate-button1 {
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color:#2196f3;
+    color:#FFF;
+    font-size: 16px;
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 .generate p {
