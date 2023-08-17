@@ -45,7 +45,8 @@ const callGenerateEndpoint = async () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>AI based OligoQHSE make your HSE easier</h1>
+            <h1>AI based OligoQHSE</h1>
+            <h2>make your HSE easier</h2>
           </div>
           <div className="header-subtitle">
             <h2>Elevating Operations through Safety and Environmental Leadership</h2>
